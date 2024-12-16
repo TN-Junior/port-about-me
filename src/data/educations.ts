@@ -1,13 +1,13 @@
 const educations = [
   {
     id: 1,
-    title: 'Análise e Desenvolvimento de Sistemas',
-    subTitle: 'Universidade Unopar',
+    title: 'Sistemas para Internet',
+    subTitle: 'Universidade Católica de Pernambuco',
     status: 'Completo',
     level: 'Superior',
-    link: 'https://www.unopar.com.br/',
-    description: 'Superior de Análise e Desenvolvimento de Sistemas. ',
-    logo: '/education/logos/unopar.png',
+    link: 'https://portal.unicap.br/',
+    description: 'Superior de Sistemas para Internet. ',
+    logo: '/education/logos/unicap.png',
   },
   {
     id: 2,

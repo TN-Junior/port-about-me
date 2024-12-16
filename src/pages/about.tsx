@@ -47,7 +47,7 @@ export default function About() {
             <S.AboutImage>
               <img
                 className="AboutImg"
-                src="/Evander.webp"
+                src="/photo.jpeg"
                 alt="Imagem de perfil Evander"
               />
 
@@ -55,12 +55,12 @@ export default function About() {
                 <ul>
                   <Link href={'https://github.com/tn-junior'}>
                     <a target="_blank" aria-label="Link para o Github">
-                      <AiFillGithub size={25} /> @tn-junior
+                      <AiFillGithub size={25} /> @TN-Junior
                     </a>
                   </Link>
                   <Link href={'https://www.linkedin.com/in/evander-inacio/'}>
                     <a target="_blank" aria-label="Link para o Linkedin">
-                      <BsLinkedin size={25} /> @tarynascimento
+                      <BsLinkedin size={25} /> @Tary Nascimento Rego Junior
                     </a>
                   </Link>
                   <Link
@@ -107,13 +107,11 @@ export default function About() {
             </S.AboutImage>
             <S.AboutDescription>
               <p>
-              Engenheiro de ML com um histórico comprovado na aplicação de aprendizado de máquina,
-              modelagem estatística avançada e técnicas de engenharia de dados para resolver
-              desafios de negócios complexos.
-
+              Sou apaixonado por tecnologia e entusiasta do desenvolvimento web e backend. Atualmente, aplico minhas habilidades como Data Scientist na Prefeitura da Cidade do Recife, unindo desenvolvimento de software e análise de dados para entregar soluções escaláveis e impactantes.
+              Estou sempre em busca de novos desafios, aprendendo tecnologias inovadoras e buscando formas de melhorar a eficiência e a escalabilidade dos projetos em que atuo.
               
               </p>
-              <p>
+              <p> {/*
               Principais Especialidades:
               </p>
               <p>
@@ -125,7 +123,7 @@ export default function About() {
               - Pipelines de Dados: Construiu várias infraestruturas de Data Lake baseadas na nuvem usando Apache Airflow, Amazon Athena, Glue, EC2, Redshift e Amazon S3.
               - Modelagem Estatística: Implementou modelos de classificação de aprendizado de máquina, incluindo projetos para detecção de fraude.
               </p>
-              <p>
+              <p> */}
               Habilidades Adicionais:
               </p>
               <p>
