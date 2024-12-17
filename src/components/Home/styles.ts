@@ -65,7 +65,7 @@ export const HomeText = styled.div`
     font-size: 2.2rem;
     font-weight: 800;
     color: ${props => props.theme.firstColor};
-    background: linear-gradient(90deg, #9442fe, #3378ff);
+    background: linear-gradient(90deg,rgb(66, 97, 254),rgb(15, 67, 170));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

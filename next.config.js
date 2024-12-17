@@ -11,9 +11,13 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'i.imgur.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.jsdelivr.net',
       }
     ]
   },
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;

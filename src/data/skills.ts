@@ -1,4 +1,3 @@
-
 const cardSkills = [
   {
     id: 1,
@@ -54,19 +53,72 @@ const cardSkills = [
     img: '/skills/material-ui.svg',
     color: '#007fff'
   },
-  // {
-  //   id: 10,
-  //   title: 'Chakra UI',
-  //   img: '/skills/chakra-ui.svg',
-  //   color: '#51c8c5'
-  // },
+  {
+    id: 10,
+    title: 'Node JS',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+    color: '#339933'
+  },
   {
     id: 11,
+    title: 'Java',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+    color: '#f89820'
+  },
+  {
+    id: 12,
+    title: 'Spring Boot',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg',
+    color: '#6DB33F'
+  },
+  {
+    id: 13,
+    title: 'Python',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+    color: '#306998'
+  },
+  /*{
+    id: 14,
+    title: 'Flask',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg',
+    color: '#808080'
+  },*/
+  {
+    id: 15,
+    title: 'Dash Plotly',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg',
+    color: '#3E4C59'
+  },
+  {
+    id: 16,
+    title: 'MySQL',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+    color: '#4479A1'
+  },
+  {
+    id: 17,
     title: 'Git',
     img: '/skills/git.svg',
     color: '#de4736'
   },
-
+  /*{
+    id: 18,
+    title: 'GitHub',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+    color: '#808080'
+  }, */
+  /*{
+    id: 19,
+    title: 'AWS',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg',
+    color: '#FF9900'
+  },*/
+  {
+    id: 20,
+    title: 'Docker',
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg',
+    color: '#ADD8E6'
+  },
 ]
 
 export default cardSkills

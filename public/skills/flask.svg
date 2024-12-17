@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <path fill="#000000" d="M128 0L0 128l128 128 128-128L128 0z"/>
+  <text x="50%" y="50%" font-size="48" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">
+    Flask
+  </text>
+</svg>

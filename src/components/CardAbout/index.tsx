@@ -8,7 +8,7 @@ export function About() {
   return (
     <Container>
       <AboutContainer>
-        <div className="AboutImg">
+        {/*<div className="AboutImg">
           <Image
             width={500}
             height={500}
@@ -16,13 +16,13 @@ export function About() {
             src="/about.svg"
             alt="Imagem de perfil"
           />
-        </div>
+        </div>*/}
 
         <div className="aboutContent">
           <div className="aboutDescription">
             <h2>Deixe-me apresentar</h2>
             <p>
-              Engenheiro de ML com um histórico comprovado na aplicação de aprendizado de máquina, modelagem estatística avançada e técnicas de engenharia de dados para resolver desafios de negócios complexos.
+              Desenvolvedor de software com um histórico comprovado na aplicação de sistemas fullstack, modelagem estatística avançada e técnicas de engenharia de dados para resolver desafios de negócios complexos.
               <br />
               Você pode conhecer mais sobre o meu perfil e o meu trabalho
               navegando pelo website.

@@ -29,7 +29,7 @@ export function HomeHero() {
           <h2>
             <Typewriter
               options={{
-                strings: ['Desenvolvedor Machine Learning'],
+                strings: ['Desenvolvedor Fullstack'],
                 autoStart: true,
                 loop: true,
                 skipAddStyles: true
