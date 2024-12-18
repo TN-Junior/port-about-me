@@ -1,21 +1,17 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const AboutContainer = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: ${props => props.theme.backgroundSecond};
+  background-color: ${({ theme }) => theme.backgroundSecond};
   border-radius: 10px;
   padding: 1.5rem;
-  margin-top: 5rem;
-  margin-bottom: 2.5rem;
+  margin: 5rem 0 2.5rem;
 
   .AboutImg {
     width: 10rem;
-    display: flex;
-    justify-self: center;
-    align-self: center;
     border-radius: 5px;
     margin-bottom: 2rem;
   }
@@ -26,35 +22,33 @@ export const AboutContainer = styled.section`
     max-width: 31rem;
 
     h2 {
-      color: ${props => props.theme.cyan_500};
+      color: ${({ theme }) => theme.cyan_500};
     }
 
     p {
-      color: ${props => props.theme.textPrimary};
+      color: ${({ theme }) => theme.textPrimary};
     }
 
     strong {
-      color: ${props => props.theme.gray_easy};
+      color: ${({ theme }) => theme.gray_easy};
 
       a {
-        color: ${props => props.theme.gray};
-        border-bottom: 1px solid ${props => props.theme.gray};
-
+        color: ${({ theme }) => theme.gray};
+        border-bottom: 1px solid ${({ theme }) => theme.gray};
+        transition: color 0.3s, border-bottom 0.3s;
 
         &:hover {
-          color: ${props => props.theme.cyan_400};
-          border-bottom: 1px solid ${props => props.theme.cyan_400};
+          color: ${({ theme }) => theme.cyan_400};
+          border-bottom: 1px solid ${({ theme }) => theme.cyan_400};
         }
       }
     }
 
-    .aboutButton{
+    .aboutButton {
       display: flex;
-      justify-content: start;
-      align-items: center;
       gap: 1.5rem;
 
-      @media(max-width: 468px) {
+      @media (max-width: 468px) {
         flex-direction: column;
       }
     }
@@ -69,9 +63,8 @@ export const AboutContainer = styled.section`
 
   @media (min-width: 994px) {
     display: grid;
-    justify-content: center;
-    align-items: center;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 
     .AboutImg {
       width: 320px;
@@ -80,8 +73,6 @@ export const AboutContainer = styled.section`
     .aboutContent {
       width: 40rem;
       margin-bottom: 3rem;
-      font-weight: 500;
-      align-items: center;
     }
   }
-`
+`;
