@@ -9,7 +9,8 @@ const works = [
       'Atuo como Desenvolvedor Front-end freelancer com paixão por criar experiências digitais incríveis e funcionais.',
     tags: [
       { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
-      { name: 'Dash Plotly', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg' },
+      { name: 'Dash Plotly', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg' }, 
+      { name: 'Dash Plotly', icon: 'https://img.icons8.com/?size=100&id=AqYCfGyGXlO7&format=png&color=FFFFFF' },
       { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
       { name: 'Amazon', icon: 'https://img.icons8.com/?size=100&id=33039&format=png&color=000000' },
     ],
