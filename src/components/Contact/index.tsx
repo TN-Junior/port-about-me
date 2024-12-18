@@ -26,11 +26,11 @@ export function Contact() {
         <ContactContent>
           <div className="contact-content">
             <h4>
-              <BsWhatsapp size={22} color="#00fffb" /> WhatsApp{' '}
+              <BsWhatsapp size={22} color="#00EE00" /> WhatsApp{' '}
             </h4>
-            <Link href="https://api.whatsapp.com/send?phone=5511995085916">
+            <Link href="https://api.whatsapp.com/send?phone=5581984417364">
               <a target="_blank">
-                <span>+55 11 99508-5916</span>
+                <span>+55 81 98441-7364</span>
               </a>
             </Link>
           </div>
@@ -38,11 +38,11 @@ export function Contact() {
           <div className="contact-content">
             <h4>
               {' '}
-              <TelegramLogo size={22} color="#00fffb" /> Email{' '}
+              <TelegramLogo size={22} color="#00EE00" /> Email{' '}
             </h4>
-            <Link href="mailto:evander.20116@gmail.com">
+            <Link href="mailto:tary.junior47@gmail.com">
               <a target="_blank">
-                <span>evander.20116@gmail.com</span>
+                <span>tary.junior47@gmail.com</span>
               </a>
             </Link>
           </div>
