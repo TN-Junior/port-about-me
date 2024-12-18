@@ -1,21 +1,22 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import { ButtonAlt, Section } from '../../styles/styles'
-import { CardContactContainer, CardContactContent } from './styles'
-import { TelegramLogo } from 'phosphor-react'
+import Link from 'next/link';
+import Image from 'next/image';
+import { ButtonAlt, Section } from '../../styles/styles';
+import { CardContactContainer, CardContactContent } from './styles';
+import { TelegramLogo } from 'phosphor-react';
 
 export function CardContact() {
   return (
     <Section>
       <CardContactContainer>
-        <div className='ellipse'> 
-        <Image
-          width={330}
-          height={410} 
-          src="/vectors/circles.svg"
-          alt="circles"
-        />
+        <div className="ellipse"> 
+          <Image
+            width={330}
+            height={410} 
+            src="/vectors/circles.svg"
+            alt="Circles background"
+          />
         </div>
+
         <CardContactContent>
           <div className="description">
             <h2>Vamos conversar!</h2>
@@ -30,12 +31,12 @@ export function CardContact() {
               width={480} 
               height={500} 
               src="/contact.svg" 
-              alt="imagem de contato" 
+              alt="Imagem de contato" 
             />
           </div>
         </CardContactContent>
 
-        <Link href={'/contact'}>
+        <Link href="/contact" passHref>
           <ButtonAlt>
             Entre em contato{' '}
             <TelegramLogo
@@ -50,5 +51,5 @@ export function CardContact() {
         </Link>
       </CardContactContainer>
     </Section>
-  )
+  );
 }
