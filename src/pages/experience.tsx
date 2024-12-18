@@ -5,7 +5,7 @@ import experiences from '../data/experiences'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
-import { Work } from '../components/Work'
+//import { Work } from '../components/Work'
 import { Links } from '../components/Links'
 import { ScrollTop } from '../components/ScrollTop'
 import { Educations } from '../components/Educations'
@@ -124,7 +124,7 @@ export default function Experience() {
           </Tabs>
         </TabsContainer>
 
-        <Work />
+        {/*<Work />*/}
         <Educations />
       </Section>
       <Footer />

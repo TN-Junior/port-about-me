@@ -1,9 +1,9 @@
 const works = [
   {
     id: 1,
-    img: '/experience/work.svg',
-    title: 'Freelancer',
-    subTitle: 'Desenvolvedor Front-end',
+    img: '/experience/pcr.jpg',
+    title: 'Prefeitura da Cidade do Recife',
+    subTitle: 'Business Intelligence Developer',
     office: 'Freelancer',
     description:
       'Atuo como Desenvolvedor Front-end freelancer com paixão por criar experiências digitais incríveis e funcionais.',
@@ -19,9 +19,9 @@ const works = [
   },
   {
     id: 2,
-    img: '/experience/logo-ultronia.webp',
-    title: 'Ultronia',
-    subTitle: 'Desenvolvedor Front-end',
+    img: '/experience/fcxlabs.jpg',
+    title: 'FCxlabs',
+    subTitle: 'Desenvolvedor de Software',
     office: 'Freelancer',
     description:
       'Na Ultronia, fui responsável pelo desenvolvimento Front-End. Sendo responsável pelo desenvolvimento e manutenção de aplicações utilizando ReactJS, JavaScript e Material UI. Trabalhei em colaboração com a equipe de desenvolvimento back-end, para integrar componentes front-end e back-end de nossas aplicações.',

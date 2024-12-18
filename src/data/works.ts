@@ -1,3 +1,4 @@
+/*
 const works = [
   {
     id: 1,
@@ -66,3 +67,4 @@ const works = [
 ]
 
 export default works
+*/

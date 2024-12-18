@@ -10,7 +10,7 @@ import { Footer } from '../components/Footer'
 import { Experience } from '../components/Experience'
 import { CardContact } from '../components/CardContact'
 import { Section } from '../styles/styles'
-import { Work } from '../components/Work'
+//import { Work } from '../components/Work'
 
 export default function Home() {
   return (
@@ -27,7 +27,7 @@ export default function Home() {
         <About />
         <Skills />
         <Experience />
-        <Work />
+        {/*<Work />*/}
         <Projects />
         <CardContact />
       </Section>

@@ -1,3 +1,4 @@
+/*
 import styled from 'styled-components'
 
 interface ProjectProps {
@@ -197,3 +198,4 @@ export const WorkContent = styled.div<ProjectProps>`
     }
   }
 `
+*/

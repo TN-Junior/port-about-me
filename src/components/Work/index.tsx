@@ -1,3 +1,4 @@
+/*
 import Link from 'next/link'
 import work from '../../data/works'
 import { Container, Title } from '../../styles/styles'
@@ -40,3 +41,4 @@ export function Work() {
     </Container>
   )
 }
+*/
