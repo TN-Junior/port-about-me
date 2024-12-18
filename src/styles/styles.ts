@@ -146,7 +146,7 @@ export const ButtonPrimary = styled.button`
   margin-top: 2rem;
   border: 2px solid;
   border-radius: 5px;
-  border-image: linear-gradient(225deg, #00d9ff 0%, #c001fa 100%) 1;
+  border-image: linear-gradient(225deg,rgb(15, 223, 133) 0%,rgb(23, 176, 143) 100%) 1;
   display: block;
   overflow: hidden;
   position: relative;
@@ -158,7 +158,7 @@ export const ButtonPrimary = styled.button`
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(225deg, #00d9ffe1 0%, #d502face 100%);
+    background: linear-gradient(225deg,rgba(0, 255, 145, 0.88) 0%,rgba(4, 157, 108, 0.81) 100%);
     z-index: -1;
     transition: transform 0.5s;
     transform-origin: 0 0;
@@ -170,7 +170,7 @@ export const ButtonPrimary = styled.button`
     color: ${props => props.theme.dark};
     &:before {
       transform: scale(1);
-      background: linear-gradient(225deg, #00d9ffe1 0%, #d502face 100%);
+      background: linear-gradient(225deg,rgba(10, 245, 151, 0.88) 0%,rgba(1, 159, 56, 0.81) 100%);
     }
   }
 
