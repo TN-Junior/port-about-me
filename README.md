@@ -1,9 +1,4 @@
 
-
-
-
-
-
 ## 📝 Descrição 
 
 Meu portfólio criado com o objetivo de mostrar meus projetos. 
