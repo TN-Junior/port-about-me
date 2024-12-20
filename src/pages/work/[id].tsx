@@ -1,10 +1,11 @@
+export {}; // Garantir que o arquivo seja tratado como um módulo
 
-{/*
+/* 
 import { GetStaticProps, GetStaticPaths } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import works from '../../data/works'; // Certifique-se de que o arquivo `works` existe
+// import works from '../../data/works'; // Comentado
 import { Work } from '../../types/Work';
 
 import * as S from '../../styles/work';
@@ -102,7 +103,7 @@ export default function Projeto({ work }: WorkProps) {
   );
 }
 
-export const getStaticProps: GetStaticProps = async ({ params }: any) => {
+/* export const getStaticProps: GetStaticProps = async ({ params }: any) => {
   const workId = params.id;
 
   // Buscando o trabalho correspondente
@@ -120,9 +121,9 @@ export const getStaticProps: GetStaticProps = async ({ params }: any) => {
     },
     revalidate: 60, // Revalidação a cada 60 segundos
   };
-};
+}; */
 
-export const getStaticPaths: GetStaticPaths = async () => {
+/* export const getStaticPaths: GetStaticPaths = async () => {
   // Gerando paths com base nos dados
   const paths = works.map(work => ({
     params: { id: work.url },
@@ -132,7 +133,4 @@ export const getStaticPaths: GetStaticPaths = async () => {
     paths,
     fallback: 'blocking', // Gera página sob demanda se não estiver em cache
   };
-};
-*/}
-
-export {};
+}; */
