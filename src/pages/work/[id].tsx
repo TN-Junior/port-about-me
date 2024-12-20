@@ -1,5 +1,9 @@
-export {}; // Garantir que o arquivo seja tratado como um módulo
+// Placeholder para evitar erro de build
+export default function Placeholder() {
+  return <div>Work page placeholder</div>;
+}
 
+// Conteúdo comentado para uso futuro
 /* 
 import { GetStaticProps, GetStaticPaths } from 'next';
 import Head from 'next/head';
