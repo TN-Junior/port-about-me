@@ -1,5 +1,5 @@
 export const defaultTheme = {
-  background: '#020617',
+  background: '#000000',
   backgroundSecond: '#080D1F',
   backgroundAlt: '#070D1E',
   dark: '#030712',

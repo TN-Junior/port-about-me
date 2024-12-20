@@ -2,7 +2,7 @@ import { GetStaticProps, GetStaticPaths } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import works from '../../data/works'
+//import works from '../../data/works'
 import { Work } from '../../types/Work'
 
 import * as S from '../../styles/work'
@@ -108,7 +108,7 @@ export default function Projeto({ work }: WorkProps) {
   )
 }
 
-export const getStaticProps: GetStaticProps = async ({ params }: any) => {
+{/*export const getStaticProps: GetStaticProps = async ({ params }: any) => {
   const work = works.map(work => ({
     id: work.id,
     url: work.url,
@@ -130,7 +130,7 @@ export const getStaticProps: GetStaticProps = async ({ params }: any) => {
     },
     revalidate: 60 // 60 seconds
   }
-}
+} */}
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
