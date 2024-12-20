@@ -134,3 +134,5 @@ export const getStaticPaths: GetStaticPaths = async () => {
   };
 };
 */}
+
+export {};
