@@ -20,13 +20,13 @@ export default function About() {
         <title>About | Tary Junior </title>
         <meta
           name="description"
-          content="Meu nome é Tary Junior, sou um desenvolvedor front-end React
+          content="Meu nome é Tary Junior, sou um desenvolvedor fullstack
           do Brasil."
         />
-        <meta property="og:title" content="About | Evander Inácio" />
+        <meta property="og:title" content="About | Tary Junior" />
         <meta
           property="og:description"
-          content="Meu nome é Evander Inácio, sou um desenvolvedor front-end React do Brasil."
+          content="Meu nome é Tary Junior, sou um desenvolvedor fullstack do Brasil."
         />
       </Head>
 
@@ -48,7 +48,7 @@ export default function About() {
               <img
                 className="AboutImg"
                 src="/photo.jpeg"
-                alt="Imagem de perfil Evander"
+                alt="Imagem de perfil Tary"
               />
 
               <div className="links">
