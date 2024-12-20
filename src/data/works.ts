@@ -68,3 +68,5 @@ const works = [
 
 export default works
 */
+
+export {};
