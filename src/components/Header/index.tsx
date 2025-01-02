@@ -73,18 +73,12 @@ export function Header() {
             </Link>
           </li>
 
-          <li>
-            <Link href={'/projects'}>
-              <a>
-                <span>Projetos</span>
-              </a>
-            </Link>
-          </li>
+
 
           <li>
             <Link href={'/resume'}>
               <a>
-                <span>Resume</span>
+                <span>CV</span>
               </a>
             </Link>
           </li>
